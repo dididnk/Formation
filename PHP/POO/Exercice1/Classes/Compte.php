@@ -3,7 +3,7 @@
 /**
  *  class Compte bancaire
  */
-class Compte
+abstract class Compte
 {
     // Propriétés
     
@@ -12,19 +12,13 @@ class Compte
      *
      * @var string
      */
-    private $titulaire;
+    private string $titulaire;
     /**
      * variable solde [le solde d compte]
      *
      * @var float
      */
-    private $solde;
-
-    // Constantes
-    /**
-     * le taux d'inter^t du compte
-     */
-    const TAUX_INTERETS  = 0.5;
+    protected float $solde;
 
     //Méthodes
     
@@ -139,21 +133,6 @@ class Compte
             $this->solde -= $montant;
         }else{
             echo "Montant invalide ou solde incuffisant".'<br/>';
-        }
-        echo $this->decouvert();
-    }
-
-    /**
-     * Vérifie si le solde est à decouvert et affiche le message
-     *
-     * @return void
-     */
-    private function decouvert(): void
-    {
-        if($this->solde < 0){
-            echo "Vous êtes à decouvert".'<br/>';
-        }else{
-            echo "Vous n'êtes pas à decouvert".'<br/>';
         }
     }
 }
