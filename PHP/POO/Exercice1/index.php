@@ -1,8 +1,10 @@
 <?php
-require_once("Classes/Compte.php");
-require_once("Classes/CompteCourant.php");
-require_once("Classes/CompteEpargne.php");
-require_once("Classes/CompteEpargneCourant.php");
+use App\client\Compte as CompteClient;
+require_once("Classes/Banque/Compte.php");
+require_once("Classes/Banque/CompteCourant.php");
+require_once("Classes/Banque/CompteEpargne.php");
+require_once("Classes/Banque/CompteEpargneCourant.php");
+require_once("classes/Client/Compte.php");
 
 // on instancie la classe
 $compte1 = new CompteCourant("Emmanuel", 200, 200);
