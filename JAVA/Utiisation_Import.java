@@ -1,6 +1,6 @@
 import mypackage.*;
 
-class MainApp
+class Utiisation_Import
 {
     public static void main(String[] args)
     {
