@@ -1,3 +1,4 @@
+package Fait;
 import java.util.StringTokenizer;
 
 public class StringBuilder_StringBuffer {

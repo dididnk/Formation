@@ -1,3 +1,4 @@
+package Fait;
 
 import java.util.*;
 import java.io.BufferedReader;

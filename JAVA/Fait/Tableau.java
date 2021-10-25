@@ -1,3 +1,4 @@
+package Fait;
 public class Tableau {
     public static void main(String[] args)
     {

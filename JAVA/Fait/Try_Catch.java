@@ -1,3 +1,4 @@
+package Fait;
 import java.util.*;
 
 class Try_Catch

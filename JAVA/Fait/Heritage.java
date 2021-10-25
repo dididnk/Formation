@@ -1,3 +1,4 @@
+package Fait;
 import mypackage.*;
 
 class Heritage
