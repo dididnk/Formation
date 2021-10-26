@@ -1,6 +1,6 @@
 package game;
 
-abstract public class Building 
+public abstract class Building 
 {
-    abstract void build(String material);
+    public abstract void build(String material);
 }

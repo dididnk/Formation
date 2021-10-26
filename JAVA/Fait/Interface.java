@@ -8,7 +8,7 @@ class Interface
         Cottage c   = new Cottage();
         Ship s      = new Ship();
 
-        c.fly("Carbone");
-        s.fly("Mana");
+        c.fly("Gaz");
+        s.fly("Cerozen");
     }
 }

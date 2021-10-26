@@ -1,11 +1,13 @@
 package game;
 
-public class Cottage extends Building implements Flayable
+public class Cottage extends Building implements Flyable
 {
     public Cottage()
     {
         System.out.println("Parcelle construite");
     }
+
+    // Instanciations et Implementations
 
     public void build(String material)
     {

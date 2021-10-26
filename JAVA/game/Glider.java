@@ -10,8 +10,4 @@ public class Glider extends Vehicule
     {
         System.out.println("Le planeur fend l'air vers " + x + ", " + y );
     }
-    public void fly()
-    {
-
-    }
 }

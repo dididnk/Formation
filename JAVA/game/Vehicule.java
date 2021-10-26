@@ -1,8 +1,7 @@
 package game;
 
-abstract public class Vehicule 
+public abstract class Vehicule 
 {
     protected int m_MouvementSpeed;
-    
-    abstract public void moveXY(int x, int y);
+    public abstract void moveXY(int x, int y);
 }
