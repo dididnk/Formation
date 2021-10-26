@@ -1,6 +1,7 @@
+
 public class App 
 {
-    public void main(String[] ars)
+    public static void main(String[] ars)
     {
         System.out.println("Bonjour");
     }    
