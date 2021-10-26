@@ -1,4 +1,4 @@
-import mypackage.Cat;
+package Fait;
 import java.util.ArrayList; // Vector, LinkedList (liste chaînée)
 
 public class List 

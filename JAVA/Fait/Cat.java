@@ -1,4 +1,4 @@
-package mypackage;
+package Fait;
 
 public class Cat 
 {
