@@ -1,0 +1,25 @@
+<div class="alert alert-secondary">
+  Bonjour Bootstrap <i class="fa fa-smile-o" aria-hidden="true"></i>
+</div>
+<div [hidden]="show" [style.backgroundColor]="bgColor">
+  Binding {{ bgColor }}
+  <table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+</div>
+
+<button class="btn btn-danger" (click)="changeStatuts()">{{title}}</button>

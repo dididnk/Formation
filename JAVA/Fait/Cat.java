@@ -12,6 +12,5 @@ public class Cat
     public void speakCat()
     {
         System.out.println("Miau ! je m'appelle "+ this.c_name +".");
-    }
-    
+    } 
 }
