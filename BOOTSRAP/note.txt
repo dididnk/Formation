@@ -16,3 +16,43 @@ container       : 90% de la largeur
 -en sm  : 750px +- 90% de l'écran
 -en md  : IDEM
 -en lg  : IDEM
+
+Style de Text
+--------------
+<small>Bonjour</small>  : diminue le text et le met en valeur
+<mark>bb</mark>         : IDEM
+# Couleur: {clé-couleur}: la clé peu être text ou bg (background)
+
+-default    : Blanc
+-primary    : Bleu
+-success    : Vert
+-info       : Bleu foncé
+-warning    : Jaune
+-danger     : Rouge
+-link       : Lien
+
+Formulaire
+-----------
+form-inline     : --> dans le formulaire pour que chaque élément soit dans la même ligne
+form-group      : --> la div qui regoupe le contenu de notre formulaire
+form-control    : --> chaque input de notre formulaire
+
+Autres
+--------
+checkbox-inline
+disable         : bloque l'élément | active
+has-succes : met un élément en vert / error : en rouge
+input-lg:   permet à ce que le contenu soit large
+btn-block : prend toute la largeur du container
+btn-group / btn-group-vertical: permet de grouper les bouttons
+
+Images
+-------
+img-rounded     :   arrondi les bords de l'image
+img-circle      :   arrondi l'image
+img-thumbmail   :   met l'image en forme de portrait
+img-responsive  : tu connais
+
+Icônes
+-------
+Recherche       : glyphicon glyphicon-search
