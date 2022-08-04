@@ -1,0 +1,5 @@
+C:\data\Auto_Apprentissage\CSHARP\premier_programme\premier_programme\premier_programme\obj\Debug\net5.0\premier_programme.csproj.AssemblyReference.cache
+C:\data\Auto_Apprentissage\CSHARP\premier_programme\premier_programme\premier_programme\obj\Debug\net5.0\premier_programme.GeneratedMSBuildEditorConfig.editorconfig
+C:\data\Auto_Apprentissage\CSHARP\premier_programme\premier_programme\premier_programme\obj\Debug\net5.0\premier_programme.AssemblyInfoInputs.cache
+C:\data\Auto_Apprentissage\CSHARP\premier_programme\premier_programme\premier_programme\obj\Debug\net5.0\premier_programme.AssemblyInfo.cs
+C:\data\Auto_Apprentissage\CSHARP\premier_programme\premier_programme\premier_programme\obj\Debug\net5.0\premier_programme.csproj.CoreCompileInputs.cache

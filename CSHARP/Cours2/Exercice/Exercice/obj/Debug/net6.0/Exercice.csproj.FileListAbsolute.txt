@@ -1,0 +1,15 @@
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\obj\Debug\net6.0\Exercice.csproj.AssemblyReference.cache
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\obj\Debug\net6.0\Exercice.GeneratedMSBuildEditorConfig.editorconfig
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\obj\Debug\net6.0\Exercice.AssemblyInfoInputs.cache
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\obj\Debug\net6.0\Exercice.AssemblyInfo.cs
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\obj\Debug\net6.0\Exercice.csproj.CoreCompileInputs.cache
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\bin\Debug\net6.0\Exercice.exe
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\bin\Debug\net6.0\Exercice.deps.json
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\bin\Debug\net6.0\Exercice.runtimeconfig.json
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\bin\Debug\net6.0\Exercice.dll
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\bin\Debug\net6.0\Exercice.pdb
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\obj\Debug\net6.0\Exercice.dll
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\obj\Debug\net6.0\refint\Exercice.dll
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\obj\Debug\net6.0\Exercice.pdb
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\obj\Debug\net6.0\Exercice.genruntimeconfig.cache
+C:\data\Auto_Apprentissage\CSHARP\Cours2\Exercice\Exercice\obj\Debug\net6.0\ref\Exercice.dll
