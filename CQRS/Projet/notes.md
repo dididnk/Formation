@@ -1,36 +1,39 @@
-# Créer un projet .Net
+# Documentation
 
-- dotnet new classlib -o CQRS.Core
-- dotnet new sln
-- dotnet new webapi -o Post.Cmd.Api
-- dotnet classlib -o Post.Cmd.Domain
-- dotnet classlib -o Post.Cmd.Infrastructure
+- CQRS, pour Command Query Responsibility Segregation est une architecture logiciel qui repose sur un principe simple : la séparation, au sein d'une application, des composants de modification et de restitution de l'information sous les termes Command (pour l'écriture) et Query (pour la lecture).
 
-## Combiner les deux dossiers dans la solution
+Apache Kafka est un système de streaming open source distribué utilisé pour le traitement des flux, les pipelines de données en temps réel et l'intégration des données à grande échelle.
 
-- dotnet sln add ..\CQRS-ES\CQRS.Core\CQRS.Core.csproj
-- dotnet sln add .\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj (+ Domain et Infra aussi pour Query)
+CQRS separe les web services en deux méthodes différentes (requête pour l'écriture et pour la lecture):
 
-## Ajout des références pour chaque projets
+- Command : Create, Update et Delete
+- Query : Read
 
-- dotnet add .\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj reference ..\CQRS-ES\CQRS.Core\CQRS.Core.csproj
-- dotnet add .\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj reference .\Post.Cmd\Post.Cmd.Domain\Post.Cmd.Domain.csproj
-- dotnet add .\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj reference .\Post.Cmd\Post.Cmd.Infrastructure\Post.Cmd.Infrastructure.csproj
-- dotnet add .\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj reference .\Post.Common\Post.Common.csproj
+## Prérequis (les outils ou programmes à installer)
 
-- dotnet add .\Post.Cmd\Post.Cmd.Domain\Post.Cmd.Domain.csproj reference ..\CQRS-ES\CQRS.Core\CQRS.Core.csproj
-- dotnet add .\Post.Cmd\Post.Cmd.Domain\Post.Cmd.Domain.csproj reference .\Post.Common\Post.Common.csproj
+- .NET : dotnet --version
+- Docker : docker --version
+- Docker-compose : dotnet --version
 
-- dotnet add .\Post.Cmd\Post.Cmd.Infrastructure\Post.Cmd.Infrastructure.csproj reference ..\CQRS-ES\CQRS.Core\CQRS.Core.csproj
-- dotnet add .\Post.Cmd\Post.Cmd.Infrastructure\Post.Cmd.Infrastructure.csproj reference .\Post.Cmd\Post.Cmd.Domain\Post.Cmd.Domain.csproj
+## Commandes de base pour docker
 
-- dotnet add .\Post.Common\Post.Common.csproj reference ..\CQRS-ES\CQRS.Core\CQRS.Core.csproj
-- dotnet add .\Post.Query\Post.Query.Api\Post.Query.Api.csproj reference ..\CQRS-ES\CQRS.Core\CQRS.Core.csproj
-- dotnet add .\Post.Query\Post.Query.Api\Post.Query.Api.csproj reference .\Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj
-- dotnet add .\Post.Query\Post.Query.Api\Post.Query.Api.csproj reference .\Post.Common\Post.Common.csproj
+- docker ps : verifier
+- docker network create --attachable -d bridge mydockernetwork
+- docker network ls
 
-- dotnet add .\Post.Query\Post.Query.Domain\Post.Query.Domain.csproj reference ..\CQRS-ES\CQRS.Core\CQRS.Core.csproj
-- dotnet add .\Post.Query\Post.Query.Domain\Post.Query.Domain.csproj reference .\Post.Common\Post.Common.csproj
+## lancer docker-compose
 
-- dotnet add .\Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj reference ..\CQRS-ES\CQRS.Core\CQRS.Core.csproj
-- dotnet add .\Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj reference .\Post.Cmd\Post.Cmd.Domain\Post.Cmd.Domain.csproj
+- cd docker
+- docker-compose up -d
+
+## lancer Mongo-Db
+
+- docker run -it -d --name mongo-container -p 27017:27017 --network mydockernetwork --restart always -v mongodb_data_container:/data/db mongo:latest
+
+## lancer MSQL Server
+
+docker run -d --name sql-container --network mydockernetwork --restart always -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=$tr0ngS@P@ssw0rd02' -e 'MSSQL_PID=Express' -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+
+## CQRS & Event Sourcing with Kafka
+
+- C'est quoi une Commande ?
