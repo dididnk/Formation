@@ -1,6 +1,8 @@
+using Confluent.Kafka;
 using CQRS.Core.Domain;
 using CQRS.Core.Handlers;
 using CQRS.Core.Infrastructure;
+using CQRS.Core.Producers;
 using Post.Cmd.Api.Commands;
 using Post.Cmd.Domain.Aggregates;
 using Post.Cmd.Infrastructure.config;
@@ -12,13 +14,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Configuration 
 builder.Services.Configure<MongoDbConfig>(builder.Configuration.GetSection(nameof(MongoDbConfig)));
+builder.Services.Configure<ProducerConfig>(builder.Configuration.GetSection(nameof(ProducerConfig)));
+
 builder.Services.AddScoped<IEventStoreRepository, IEventStoreRepository>();
 builder.Services.AddScoped<IEventStore, EventStore>();
 builder.Services.AddScoped<IEventSourceHandler<PostAggregate>, EventSourceHandler>();
 builder.Services.AddScoped<ICommandHandler, CommandHandler>();
+builder.Services.AddScoped<IEventProducer, IEventProducer>();
 
 // Register command handler methods
-ICommandHandler commandHandler = builder.Services.BuildServiceProvider().GetRequiredService<ICommandHandler>();
+var commandHandler = builder.Services.BuildServiceProvider().GetRequiredService<ICommandHandler>();
 var dispatcher = new CommandDispatcher();
 dispatcher.RegisterHandler<NewPostCommand>(commandHandler.HandlerAsyn);
 dispatcher.RegisterHandler<EditMessageCommand>(commandHandler.HandlerAsyn);
