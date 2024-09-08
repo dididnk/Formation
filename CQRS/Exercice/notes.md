@@ -1,15 +1,15 @@
 # Documentation
 
-- CQRS, pour Command Query Responsibility Segregation est une architecture logiciel qui repose sur un principe simple : la séparation, au sein d'une application, des composants de modification et de restitution de l'information sous les termes Command (pour l'écriture) et Query (pour la lecture).
+- CQRS, pour Command Query Responsibility Segregation est une architecture logiciel qui repose sur un principe simple : la sï¿½paration, au sein d'une application, des composants de modification et de restitution de l'information sous les termes Command (pour l'ï¿½criture) et Query (pour la lecture).
 
-Apache Kafka est un système de streaming open source distribué utilisé pour le traitement des flux, les pipelines de données en temps réel et l'intégration des données à grande échelle.
+Apache Kafka est un systï¿½me de streaming open source distribuï¿½ utilisï¿½ pour le traitement des flux, les pipelines de donnï¿½es en temps rï¿½el et l'intï¿½gration des donnï¿½es ï¿½ grande ï¿½chelle.
 
-CQRS separe les web services en deux méthodes différentes (requête pour l'écriture et pour la lecture):
+CQRS separe les web services en deux mï¿½thodes diffï¿½rentes (requï¿½te pour l'ï¿½criture et pour la lecture):
 
 - Command : Create, Update et Delete
 - Query : Read
 
-## Prérequis (les outils ou programmes à installer)
+## Prï¿½requis (les outils ou programmes ï¿½ installer)
 
 - .NET : dotnet --version
 - Docker : docker --version
@@ -32,7 +32,7 @@ CQRS separe les web services en deux méthodes différentes (requête pour l'écritu
 
 ## lancer MSQL Server
 
-docker run -d --name sql-container --network mydockernetwork --restart always -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=$tr0ngS@P@ssw0rd02' -e 'MSSQL_PID=Express' -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+docker run -d --name sql-container --network mydockernetwork --restart always -e 'ACCEPT_EULA=Y' -e 'SA_Password=SmPA$$06500' -e 'MSSQL_PID=Express' -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
 ## CQRS & Event Sourcing with Kafka
 
