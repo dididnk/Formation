@@ -92,7 +92,7 @@ namespace Post.Cmd.Domain.Aggregates
 				throw new InvalidOperationException($"The value of {nameof(comment)} cannot be null or empty. Please provide a valid {nameof(comment)} !");
 			}
 
-			RaiseEvent(new CommentAddEvent
+			RaiseEvent(new CommentAddedEvent
 			{
 				Id = _id,
 				CommentId = Guid.NewGuid(),
@@ -101,7 +101,7 @@ namespace Post.Cmd.Domain.Aggregates
 			});
 		}
 
-		public void Apply(CommentAddEvent @event)
+		public void Apply(CommentAddedEvent @event)
 		{
 			_id = @event.Id;
 			_comments.Add(@event.CommentId, new Tuple<string, string>(@event.Comment, @event.Username));
