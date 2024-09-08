@@ -4,17 +4,31 @@ using CQRS.Core.Infrastructure;
 using Post.Cmd.Api.Commands;
 using Post.Cmd.Domain.Aggregates;
 using Post.Cmd.Infrastructure.config;
+using Post.Cmd.Infrastructure.Dispatchers;
 using Post.Cmd.Infrastructure.Handlers;
 using Post.Cmd.Infrastructure.Stores;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// configuration 
+// Configuration 
 builder.Services.Configure<MongoDbConfig>(builder.Configuration.GetSection(nameof(MongoDbConfig)));
 builder.Services.AddScoped<IEventStoreRepository, IEventStoreRepository>();
 builder.Services.AddScoped<IEventStore, EventStore>();
 builder.Services.AddScoped<IEventSourceHandler<PostAggregate>, EventSourceHandler>();
 builder.Services.AddScoped<ICommandHandler, CommandHandler>();
+
+// Register command handler methods
+ICommandHandler commandHandler = builder.Services.BuildServiceProvider().GetRequiredService<ICommandHandler>();
+var dispatcher = new CommandDispatcher();
+dispatcher.RegisterHandler<NewPostCommand>(commandHandler.HandlerAsyn);
+dispatcher.RegisterHandler<EditMessageCommand>(commandHandler.HandlerAsyn);
+dispatcher.RegisterHandler<LikePostCommand>(commandHandler.HandlerAsyn);
+dispatcher.RegisterHandler<AddCommentCommand>(commandHandler.HandlerAsyn);
+dispatcher.RegisterHandler<EditCommentCommand>(commandHandler.HandlerAsyn);
+dispatcher.RegisterHandler<RemoveCommentCommand>(commandHandler.HandlerAsyn);
+dispatcher.RegisterHandler<DeletePostCommand>(commandHandler.HandlerAsyn);
+builder.Services.AddSingleton<ICommandDispatcher>(_ => dispatcher);
+
 
 
 // Add services to the container.
