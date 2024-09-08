@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76DBE85C-944F-4403-BAED-E3F50F4AF7C0}|\u00C9l\u00E9ments de solution{76DBE85C-944F-4403-BAED-E3F50F4AF7C0}|C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{76DBE85C-944F-4403-BAED-E3F50F4AF7C0}|\u00C9l\u00E9ments de solution{76DBE85C-944F-4403-BAED-E3F50F4AF7C0}|solutionrelative:Script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DBE85C-944F-4403-BAED-E3F50F4AF7C0}|\u00C9l\u00E9ments de solution{76DBE85C-944F-4403-BAED-E3F50F4AF7C0}|C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{76DBE85C-944F-4403-BAED-E3F50F4AF7C0}|\u00C9l\u00E9ments de solution{76DBE85C-944F-4403-BAED-E3F50F4AF7C0}|solutionrelative:Script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +39,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\appsettings.Development.json",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\appsettings.Development.json",
-              "RelativeToolTip": "Post.Query\\Post.Query.Api\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-08T17:13:28.628Z",
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Repositories\\PostRepository.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Repositories\\PostRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwFMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T19:30:55.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Program.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Program.cs",
-              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T16:10:49.064Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\appsettings.Development.json",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T19:18:50.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Script.sql ",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Script.sql",
+              "RelativeDocumentMoniker": "Script.sql",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Script.sql",
+              "RelativeToolTip": "Script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-08T18:58:23.927Z",
               "EditorCaption": ""
             }
           ]
