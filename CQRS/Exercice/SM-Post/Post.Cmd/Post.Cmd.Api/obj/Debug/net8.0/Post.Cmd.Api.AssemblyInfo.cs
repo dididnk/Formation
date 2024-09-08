@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Post.Cmd.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9785aa7e82a565a63f3822349cb0ed1d8f7ed64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f79ce10babf109138dce0e19d93723905f560ce6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Post.Cmd.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Post.Cmd.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

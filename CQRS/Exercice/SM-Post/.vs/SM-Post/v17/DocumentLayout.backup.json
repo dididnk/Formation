@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8FD98EF-AF10-4278-A071-1C59BE4EAD17}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\data\\formation.git\\cqrs\\exercice\\cqrs-es\\cqrs.core\\handlers\\ieventsourcehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\commands\\commandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\commands\\commandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\commands\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\commands\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.infrastructure\\handlers\\eventsourcehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\handlers\\eventsourcehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8FD98EF-AF10-4278-A071-1C59BE4EAD17}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\data\\formation.git\\cqrs\\exercice\\cqrs-es\\cqrs.core\\handlers\\ieventsourcehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8FD98EF-AF10-4278-A071-1C59BE4EAD17}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\data\\formation.git\\cqrs\\exercice\\cqrs-es\\cqrs.core\\cqrs.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -30,37 +38,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommandHandler.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwEAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:20:14.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ICommandHandler.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\ICommandHandler.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Commands\\ICommandHandler.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\ICommandHandler.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Commands\\ICommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T09:16:59.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EventSourceHandler.cs",
               "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourceHandler.cs",
               "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourceHandler.cs",
               "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourceHandler.cs",
               "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourceHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T09:03:38.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "IEventSourceHandler.cs",
               "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\CQRS-ES\\CQRS.Core\\Handlers\\IEventSourceHandler.cs",
               "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Handlers\\IEventSourceHandler.cs",
               "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\CQRS-ES\\CQRS.Core\\Handlers\\IEventSourceHandler.cs",
               "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Handlers\\IEventSourceHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T08:58:51.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CQRS.Core",
               "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj",
               "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj",
@@ -73,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ConcurrencyException.cs",
               "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\CQRS-ES\\CQRS.Core\\Exception\\ConcurrencyException.cs",
               "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Exception\\ConcurrencyException.cs",
@@ -86,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EventStore.cs",
               "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Stores\\EventStore.cs",
               "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Stores\\EventStore.cs",
@@ -111,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IEventStore.cs",
               "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\CQRS-ES\\CQRS.Core\\Infrastructure\\IEventStore.cs",
               "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Infrastructure\\IEventStore.cs",
