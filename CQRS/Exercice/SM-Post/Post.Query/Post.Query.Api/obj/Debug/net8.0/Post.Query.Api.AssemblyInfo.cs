@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Post.Query.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e61cb44e874a4daac84152135c7c65f5599d1fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbf2800926577406d1634adf4592b57ae0ab0c72")]
 [assembly: System.Reflection.AssemblyProductAttribute("Post.Query.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Post.Query.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

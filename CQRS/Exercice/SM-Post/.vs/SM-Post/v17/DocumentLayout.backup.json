@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.infrastructure\\consumers\\eventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\consumers\\eventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.infrastructure\\consumers\\consumerhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\consumers\\consumerhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.infrastructure\\post.query.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\post.query.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventConsumer.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
-              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
-              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwC8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T21:54:49.411Z",
+              "DocumentIndex": 1,
+              "Title": "Post.Query.Infrastructure",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-09T11:24:15.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Program.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Program.cs",
-              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAnwBwAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ConsumerHostedService.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T21:10:05.708Z",
+              "WhenOpened": "2024-09-09T11:20:47.984Z",
               "EditorCaption": ""
             }
           ]
