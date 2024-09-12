@@ -2,14 +2,14 @@
 
 namespace CQRS.Core.Events
 {
-	public abstract class BaseEvent : Message
-	{
-		public int Version { get; set; }
-		public string Type { get; set; }
+    public abstract class BaseEvent : Message
+    {
+        protected BaseEvent(string type)
+        {
+            Type = type;
+        }
 
-		protected BaseEvent(string type)
-		{
-			this.Type = type;
-		}
-	}
+        public string Type { get; set; }
+        public int Version { get; set; }
+    }
 }

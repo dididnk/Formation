@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\newpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\dtos\\newpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\dtos\\newpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6620FC23-5B3B-4310-9EEB-160693E82B11}|Post.Common\\Post.Common.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.common\\dtos\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6620FC23-5B3B-4310-9EEB-160693E82B11}|Post.Common\\Post.Common.csproj|solutionrelative:post.common\\dtos\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.infrastructure\\stores\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\stores\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewPostController.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
-              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
-              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswBsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T11:37:29.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NewPostResponse.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\DTOs\\NewPostResponse.cs",
-              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\DTOs\\NewPostResponse.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\DTOs\\NewPostResponse.cs",
-              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\DTOs\\NewPostResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T11:35:19.803Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -59,20 +29,29 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewPostController.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:58:22.605Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseResponse.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Common\\DTOs\\BaseResponse.cs",
-              "RelativeDocumentMoniker": "Post.Common\\DTOs\\BaseResponse.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Common\\DTOs\\BaseResponse.cs",
-              "RelativeToolTip": "Post.Common\\DTOs\\BaseResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EventStore.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Stores\\EventStore.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Stores\\EventStore.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Stores\\EventStore.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Stores\\EventStore.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowDMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T11:34:05.363Z",
+              "WhenOpened": "2024-09-12T12:27:16.825Z",
               "EditorCaption": ""
             }
           ]

@@ -9,17 +9,15 @@ using Post.Query.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configuration 
-Action<DbContextOptionsBuilder> configureDbContext = (options =>
-	options.UseLazyLoadingProxies()
-		.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
-
+// Add services to the container.
+Action<DbContextOptionsBuilder> configureDbContext = o => o.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("SqlServer"));
 builder.Services.AddDbContext<DatabaseContext>(configureDbContext);
 builder.Services.AddSingleton<DatabaseContextFactory>(new DatabaseContextFactory(configureDbContext));
 
-// Create database and table from code
 var dataContext = builder.Services.BuildServiceProvider().GetRequiredService<DatabaseContext>();
-dataContext.Database.EnsureCreated();
+// dataContext.Database.EnsureCreated();
+dataContext.Database.Migrate();
+
 
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
@@ -37,7 +35,16 @@ builder.Services.AddHostedService<ConsumerHostedService>(); // add
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Add services to the container.
+builder.Services.AddControllers();
+
+
 var app = builder.Build();
+
+// Add authorization service
+builder.Services.AddAuthorization();
+
+// var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
