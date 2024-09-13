@@ -32,8 +32,9 @@ CQRS separe les web services en deux m�thodes diff�rentes (requ�te pour l'
 
 ## lancer MSQL Server
 
-docker run -d --name sql-container --network mydockernetwork --restart always -e 'ACCEPT_EULA=Y' -e 'SA_Password=SmPA$$06500' -e 'MSSQL_PID=Express' -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+docker run -d --name sql-container --network mydockernetwork --restart always -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=$tr0ngS@P@ssw0rd02' -e 'MSSQL_PID=Express' -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
-## CQRS & Event Sourcing with Kafka
+## Test globale
 
-- C'est quoi une Commande ?
+- docker ps
+- docker network inspect mydockernetwork
