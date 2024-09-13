@@ -14,51 +14,44 @@ using Post.Cmd.Infrastructure.Stores;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configuration 
+// Add services to the container.
 builder.Services.Configure<MongoDbConfig>(builder.Configuration.GetSection(nameof(MongoDbConfig)));
 builder.Services.Configure<ProducerConfig>(builder.Configuration.GetSection(nameof(ProducerConfig)));
-
 builder.Services.AddScoped<IEventStoreRepository, EventStoreRepository>();
 builder.Services.AddScoped<IEventProducer, EventProducer>();
 builder.Services.AddScoped<IEventStore, EventStore>();
 builder.Services.AddScoped<IEventSourcingHandler<PostAggregate>, EventSourcingHandler>();
 builder.Services.AddScoped<ICommandHandler, CommandHandler>();
 
-// Register command handler methods
+// register command handler methods
 var commandHandler = builder.Services.BuildServiceProvider().GetRequiredService<ICommandHandler>();
 var dispatcher = new CommandDispatcher();
-dispatcher.RegisterHandler<NewPostCommand>(commandHandler.HandlerAsyn);
-dispatcher.RegisterHandler<EditMessageCommand>(commandHandler.HandlerAsyn);
-dispatcher.RegisterHandler<LikePostCommand>(commandHandler.HandlerAsyn);
-dispatcher.RegisterHandler<AddCommentCommand>(commandHandler.HandlerAsyn);
-dispatcher.RegisterHandler<EditCommentCommand>(commandHandler.HandlerAsyn);
-dispatcher.RegisterHandler<RemoveCommentCommand>(commandHandler.HandlerAsyn);
-dispatcher.RegisterHandler<DeletePostCommand>(commandHandler.HandlerAsyn);
+dispatcher.RegisterHandler<NewPostCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<EditMessageCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<LikePostCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<AddCommentCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<EditCommentCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<RemoveCommentCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<DeletePostCommand>(commandHandler.HandleAsync);
 builder.Services.AddSingleton<ICommandDispatcher>(_ => dispatcher);
 
-
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-// Add services to the container.
-builder.Services.AddControllers();
-
-// Add authorization service
-builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-	app.UseSwagger();
-	app.UseSwaggerUI();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
+
 app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();

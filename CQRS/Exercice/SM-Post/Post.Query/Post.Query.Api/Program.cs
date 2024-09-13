@@ -14,37 +14,24 @@ Action<DbContextOptionsBuilder> configureDbContext = o => o.UseLazyLoadingProxie
 builder.Services.AddDbContext<DatabaseContext>(configureDbContext);
 builder.Services.AddSingleton<DatabaseContextFactory>(new DatabaseContextFactory(configureDbContext));
 
+// create database and tables
 var dataContext = builder.Services.BuildServiceProvider().GetRequiredService<DatabaseContext>();
-// dataContext.Database.EnsureCreated();
-dataContext.Database.Migrate();
-
+dataContext.Database.EnsureCreated();
 
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 builder.Services.AddScoped<IEventHandler, Post.Query.Infrastructure.Handlers.EventHandler>();
-
 builder.Services.Configure<ConsumerConfig>(builder.Configuration.GetSection(nameof(ConsumerConfig)));
 builder.Services.AddScoped<IEventConsumer, EventConsumer>();
 
-
 builder.Services.AddControllers();
-builder.Services.AddHostedService<ConsumerHostedService>(); // add
+builder.Services.AddHostedService<ConsumerHostedService>();
 
-// Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Add services to the container.
-builder.Services.AddControllers();
-
-
 var app = builder.Build();
-
-// Add authorization service
-builder.Services.AddAuthorization();
-
-// var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -54,7 +41,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();
