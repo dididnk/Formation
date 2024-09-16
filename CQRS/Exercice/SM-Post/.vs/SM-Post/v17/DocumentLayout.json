@@ -3,32 +3,19 @@
   "WorkspaceRootPath": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\controllers\\deletepostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\deletepostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.api\\queries\\findallpostsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\queries\\findallpostsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\controllers\\removecommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\removecommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.infrastructure\\dispatchers\\querydispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\dispatchers\\querydispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\controllers\\addcommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\addcommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.infrastructure\\post.query.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\post.query.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\controllers\\editcommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\editcommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\controllers\\editmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\editmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\controllers\\likepostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\likepostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\controllers\\newpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\newpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8FD98EF-AF10-4278-A071-1C59BE4EAD17}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\data\\formation.git\\cqrs\\exercice\\cqrs-es\\cqrs.core\\infrastructure\\iquerydispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +25,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FindAllPostsQuery.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\FindAllPostsQuery.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Queries\\FindAllPostsQuery.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\FindAllPostsQuery.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Queries\\FindAllPostsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T15:00:11.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QueryDispatcher.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Dispatchers\\QueryDispatcher.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Dispatchers\\QueryDispatcher.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Dispatchers\\QueryDispatcher.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Dispatchers\\QueryDispatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:46:15.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Post.Query.Infrastructure",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-16T14:45:48.442Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -50,93 +76,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DeletePostController.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\DeletePostController.cs",
-              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\DeletePostController.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\DeletePostController.cs",
-              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\DeletePostController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T23:38:54.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddCommentController.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
-              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
-              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T23:19:16.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EditCommentController.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\EditCommentController.cs",
-              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\EditCommentController.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\EditCommentController.cs",
-              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\EditCommentController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAEAAAAAAAAAA==",
+              "Title": "IQueryDispatcher.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\CQRS-ES\\CQRS.Core\\Infrastructure\\IQueryDispatcher.cs",
+              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Infrastructure\\IQueryDispatcher.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\CQRS-ES\\CQRS.Core\\Infrastructure\\IQueryDispatcher.cs",
+              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Infrastructure\\IQueryDispatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T23:19:08.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditMessageController.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\EditMessageController.cs",
-              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\EditMessageController.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\EditMessageController.cs",
-              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\EditMessageController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwDEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T23:18:59.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LikePostController.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\LikePostController.cs",
-              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\LikePostController.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\LikePostController.cs",
-              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\LikePostController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T23:18:52.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NewPostController.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
-              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
-              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T23:18:44.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RemoveCommentController.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\RemoveCommentController.cs",
-              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\RemoveCommentController.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\RemoveCommentController.cs",
-              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\RemoveCommentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T23:11:35.33Z",
+              "WhenOpened": "2024-09-16T14:14:03.556Z",
               "EditorCaption": ""
             }
           ]
