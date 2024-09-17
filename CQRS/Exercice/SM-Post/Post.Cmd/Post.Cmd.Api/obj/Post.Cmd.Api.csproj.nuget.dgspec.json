@@ -50,10 +50,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.Extensions.Configuration.UserSecrets": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.28.0, )"
@@ -298,10 +294,6 @@
             "Confluent.Kafka": {
               "target": "Package",
               "version": "[2.5.3, )"
-            },
-            "Microsoft.Extensions.Configuration.UserSecrets": {
-              "target": "Package",
-              "version": "[6.0.1, )"
             },
             "Microsoft.Extensions.Options": {
               "target": "Package",

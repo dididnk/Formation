@@ -1927,7 +1927,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.UserSecrets": "6.0.1",
           "MongoDB.Driver": "2.28.0"
         },
         "compile": {
@@ -1953,10 +1952,6 @@
       "Post.Query.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "CQRS.Core": "1.0.0",
-          "Post.Common": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Post.Query.Domain.dll": {}
         },
@@ -1972,6 +1967,7 @@
           "Confluent.Kafka": "2.5.3",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.Extensions.Hosting": "8.0.0",
+          "Post.Common": "1.0.0",
           "Post.Query.Domain": "1.0.0"
         },
         "compile": {
@@ -5221,7 +5217,6 @@
       "Microsoft.EntityFrameworkCore.Proxies >= 8.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
       "Microsoft.Extensions.Hosting >= 8.0.0",
-      "Post.Common >= 1.0.0",
       "Post.Query.Domain >= 1.0.0",
       "Post.Query.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -5262,9 +5257,6 @@
           "projectReferences": {
             "C:\\data\\Formation.git\\CQRS\\Exercice\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
               "projectPath": "C:\\data\\Formation.git\\CQRS\\Exercice\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
-            },
-            "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Common\\Post.Common.csproj": {
-              "projectPath": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Common\\Post.Common.csproj"
             },
             "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj": {
               "projectPath": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj"

@@ -3,19 +3,8 @@
   "WorkspaceRootPath": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.api\\queries\\findallpostsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\queries\\findallpostsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.infrastructure\\dispatchers\\querydispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\dispatchers\\querydispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.infrastructure\\post.query.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\post.query.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8FD98EF-AF10-4278-A071-1C59BE4EAD17}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\data\\formation.git\\cqrs\\exercice\\cqrs-es\\cqrs.core\\infrastructure\\iquerydispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.api\\controllers\\postlookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\controllers\\postlookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,47 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FindAllPostsQuery.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\FindAllPostsQuery.cs",
-              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Queries\\FindAllPostsQuery.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\FindAllPostsQuery.cs",
-              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Queries\\FindAllPostsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T15:00:11.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QueryDispatcher.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Dispatchers\\QueryDispatcher.cs",
-              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Dispatchers\\QueryDispatcher.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Dispatchers\\QueryDispatcher.cs",
-              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Dispatchers\\QueryDispatcher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T14:46:15.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Post.Query.Infrastructure",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
-              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-16T14:45:48.442Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -76,15 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IQueryDispatcher.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\CQRS-ES\\CQRS.Core\\Infrastructure\\IQueryDispatcher.cs",
-              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Infrastructure\\IQueryDispatcher.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\CQRS-ES\\CQRS.Core\\Infrastructure\\IQueryDispatcher.cs",
-              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Infrastructure\\IQueryDispatcher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PostLookupController.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T14:14:03.556Z",
+              "WhenOpened": "2024-09-17T21:08:54.494Z",
               "EditorCaption": ""
             }
           ]
