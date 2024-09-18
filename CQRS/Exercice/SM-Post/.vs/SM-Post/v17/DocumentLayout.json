@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.api\\controllers\\postlookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\controllers\\postlookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.infrastructure\\handlers\\eventsourcehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\handlers\\eventsourcehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.infrastructure\\stores\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\stores\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.infrastructure\\repositories\\eventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\repositories\\eventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\commands\\commandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\commands\\commandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.infrastructure\\dispatchers\\commanddispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC16319-20FE-44CB-8E9F-467BA78B5C23}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\dispatchers\\commanddispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\controllers\\restorereaddbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\restorereaddbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.cmd\\post.cmd.api\\controllers\\newpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4228FB-3B96-420A-933F-12B2D3015EF5}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\newpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF61BAFA-F386-420B-B512-4A0A5F2E13AE}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.infrastructure\\handlers\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\handlers\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\data\\formation.git\\cqrs\\exercice\\sm-post\\post.query\\post.query.infrastructure\\consumers\\eventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43271B72-FA1B-4336-B1DF-8441C9B1A91B}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\consumers\\eventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +67,142 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PostLookupController.cs",
-              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
-              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
-              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
-              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
+              "Title": "EventSourceHandler.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourceHandler.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourceHandler.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourceHandler.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Handlers\\EventSourceHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwBcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T21:08:54.494Z",
+              "WhenOpened": "2024-09-17T23:05:39.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RestoreReadDbController.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T23:01:49.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommandDispatcher.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Dispatchers\\CommandDispatcher.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Dispatchers\\CommandDispatcher.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Dispatchers\\CommandDispatcher.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Dispatchers\\CommandDispatcher.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T23:10:01.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommandHandler.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Commands\\CommandHandler.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAzwEgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T23:10:01.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventStore.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Stores\\EventStore.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Stores\\EventStore.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Stores\\EventStore.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Stores\\EventStore.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T23:10:01.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventStoreRepository.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Repositories\\EventStoreRepository.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Repositories\\EventStoreRepository.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Repositories\\EventStoreRepository.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Repositories\\EventStoreRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T23:10:01.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewPostController.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:22:29.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventConsumer.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Consumers\\EventConsumer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T23:08:29.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Program.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\Program.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:57:41.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Api\\appsettings.Development.json",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T23:38:52.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventHandler.cs",
+              "DocumentMoniker": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Handlers\\EventHandler.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Handlers\\EventHandler.cs",
+              "ToolTip": "C:\\data\\Formation.git\\CQRS\\Exercice\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Handlers\\EventHandler.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Handlers\\EventHandler.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwE8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T23:08:48.555Z",
               "EditorCaption": ""
             }
           ]
