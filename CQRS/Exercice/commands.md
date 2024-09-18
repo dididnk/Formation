@@ -1,4 +1,4 @@
-# Créer un projet .Net
+# Crï¿½er un projet .Net
 
 - dotnet new classlib -o CQRS.Core
 - dotnet new sln
@@ -10,15 +10,14 @@
 
 - dotnet sln add ..\CQRS-ES\CQRS.Core\CQRS.Core.csproj
 
-- dotnet sln add .\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj 
-- dotnet sln add .\Post.Cmd\Post.Cmd.Domain\Post.Cmd.Domain.csproj 
-- dotnet sln add .\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj 
+- dotnet sln add .\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj
+- dotnet sln add .\Post.Cmd\Post.Cmd.Domain\Post.Cmd.Domain.csproj
+- dotnet sln add .\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj
+- dotnet sln add .\Post.Query\Post.Query.Api\Post.Query.Api.csproj
+- dotnet sln add .\Post.Query\Post.Query.Domain\Post.Query.Domain.csproj
+- dotnet sln add .\Post.Query\Post.Query.Api\Post.Query.Api.csproj
 
-- dotnet sln add .\Post.Query\Post.Query.Api\Post.Query.Api.csproj 
-- dotnet sln add .\Post.Query\Post.Query.Domain\Post.Query.Domain.csproj 
-- dotnet sln add .\Post.Query\Post.Query.Api\Post.Query.Api.csproj 
-
-## Ajout des références pour chaque projets
+## Ajout des rï¿½fï¿½rences pour chaque projets
 
 - dotnet add .\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj reference ..\CQRS-ES\CQRS.Core\CQRS.Core.csproj
 - dotnet add .\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj reference .\Post.Cmd\Post.Cmd.Domain\Post.Cmd.Domain.csproj
@@ -41,3 +40,4 @@
 
 - dotnet add .\Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj reference ..\CQRS-ES\CQRS.Core\CQRS.Core.csproj
 - dotnet add .\Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj reference .\Post.Cmd\Post.Cmd.Domain\Post.Cmd.Domain.csproj
+

@@ -118,3 +118,6 @@ C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Query\Post.Query.Api\obj\Debug\
 C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Query\Post.Query.Api\obj\Debug\net8.0\Post.Query.Api.pdb
 C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Query\Post.Query.Api\obj\Debug\net8.0\Post.Query.Api.genruntimeconfig.cache
 C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Query\Post.Query.Api\obj\Debug\net8.0\ref\Post.Query.Api.dll
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net8.0\appsettings.Development.PostgreSQL.json
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net8.0\Npgsql.dll
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

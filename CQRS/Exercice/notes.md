@@ -38,3 +38,8 @@ docker run -d --name sql-container --network mydockernetwork --restart always -e
 
 - docker ps
 - docker network inspect mydockernetwork
+
+## Rapide change read database
+
+- docker run -d --name postgres-container -p 5432:5432 --network mydockernetwork -e POSTGRES_PASSWORD=$tr0ngS@P@ssw0rd04 --restart always -v postgresql_data:/var/lib/postgresql/data postgres:latest
+
