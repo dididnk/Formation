@@ -1,36 +1,21 @@
-import logo from './logo.svg';
-import LogoRed from './logo-red.svg';
+import {useState} from "react"
 import './App.css';
 
-const AppLink = () =>{
-  const learnReactText = "Learn React";
-  return <a
-      className="App-link"
-      href="https://reactjs.org"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {learnReactText}
-    </a>
-}
+const Title = ({ content }) => <h1 id="title">{ content }</h1>
 
-const Logo = ({ svg }) => <img id="logo" src={logo} className="App-logo" alt="logo" />
+const Component = ({ title, onClick }) => <button onClick={() => onClick(title)}> Learn {title}</button>
 
 function App() {
-  const handleOnClick = (svg) =>{
-    const logo = document.getElementById("logo")
-    logo.src = svg;
-  }
+  const [title, setTitle ] = useState("React");
+  const handleOnClick = (lib) => setTitle(lib);
+
   return (
     <div className="App">
       <header className="App-header">
-        <Logo />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <AppLink/>
-        <button onClick={() => handleOnClick(logo)}>Blue</button>
-        <button onClick={() => handleOnClick(LogoRed)}>Red</button>
+        <Title content = {title}/>
+          <Component onClick={handleOnClick} title="React"/>
+          <Component onClick={handleOnClick} title="Vue"/>
+          <Component onClick={handleOnClick} title="Angular"/>
       </header>
     </div>
   );
