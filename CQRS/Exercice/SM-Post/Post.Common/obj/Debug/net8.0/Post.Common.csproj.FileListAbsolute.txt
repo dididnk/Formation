@@ -1,0 +1,16 @@
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\bin\Debug\net8.0\Post.Common.deps.json
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\bin\Debug\net8.0\Post.Common.dll
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\bin\Debug\net8.0\Post.Common.pdb
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\bin\Debug\net8.0\CQRS.Core.dll
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\bin\Debug\net8.0\CQRS.Core.pdb
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.csproj.AssemblyReference.cache
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.AssemblyInfoInputs.cache
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.AssemblyInfo.cs
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.csproj.CoreCompileInputs.cache
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.sourcelink.json
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\obj\Debug\net8.0\Post.Com.894DB8FF.Up2Date
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.dll
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\obj\Debug\net8.0\refint\Post.Common.dll
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.pdb
+C:\data\Formation.git\CQRS\Exercice\SM-Post\Post.Common\obj\Debug\net8.0\ref\Post.Common.dll

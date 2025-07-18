@@ -1,0 +1,13 @@
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\bin\Debug\net8.0\CQRS.Core.deps.json
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\bin\Debug\net8.0\CQRS.Core.dll
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\bin\Debug\net8.0\CQRS.Core.pdb
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\obj\Debug\net8.0\CQRS.Core.csproj.AssemblyReference.cache
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\obj\Debug\net8.0\CQRS.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\obj\Debug\net8.0\CQRS.Core.AssemblyInfoInputs.cache
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\obj\Debug\net8.0\CQRS.Core.AssemblyInfo.cs
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\obj\Debug\net8.0\CQRS.Core.csproj.CoreCompileInputs.cache
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\obj\Debug\net8.0\CQRS.Core.sourcelink.json
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\obj\Debug\net8.0\CQRS.Core.dll
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\obj\Debug\net8.0\refint\CQRS.Core.dll
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\obj\Debug\net8.0\CQRS.Core.pdb
+C:\data\Formation.git\CQRS\Exercice\CQRS-ES\CQRS.Core\obj\Debug\net8.0\ref\CQRS.Core.dll
